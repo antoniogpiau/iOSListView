@@ -113,20 +113,20 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="59i-95-cMR">
-                                            <rect key="frame" x="139" y="4" width="39" height="22.5"/>
+                                            <rect key="frame" x="73" y="4" width="39" height="22.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zab-nR-gzg">
-                                            <rect key="frame" x="139" y="26.5" width="40.5" height="13.5"/>
+                                            <rect key="frame" x="73" y="26.5" width="40.5" height="13.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="fantasticFour" id="wIc-DA-14g">
-                                            <rect key="frame" x="15" y="0.0" width="109" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="43" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
@@ -141,7 +141,7 @@
                             <outlet property="delegate" destination="8gi-0C-csM" id="geG-ee-wP4"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Wine List" id="e44-BY-cY7" userLabel="Wine List"/>
+                    <navigationItem key="navigationItem" title="SuperHeroes List" id="e44-BY-cY7" userLabel="SuperHeroes List"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNc-Z7-ldJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -200,7 +200,7 @@
                             <constraint firstItem="eAx-0x-chn" firstAttribute="trailing" secondItem="wLQ-cU-axg" secondAttribute="trailingMargin" id="gVv-88-haF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Wine Details" id="Pvj-I1-pR6"/>
+                    <navigationItem key="navigationItem" title="Super Heroes Details" id="Pvj-I1-pR6" userLabel="Super Heroes Details"/>
                     <connections>
                         <outlet property="descriptionLabel" destination="LXx-af-H1b" id="bGu-tY-VmY"/>
                         <outlet property="titleLabel" destination="eAx-0x-chn" id="mXz-Jz-Zb7"/>
@@ -214,10 +214,10 @@
     <resources>
         <image name="alone" width="455" height="268"/>
         <image name="avengers" width="1376" height="1600"/>
-        <image name="fantasticFour" width="500" height="200"/>
+        <image name="fantasticFour" width="195" height="199"/>
         <image name="xmen" width="500" height="496"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1yT-wF-kox"/>
+        <segue reference="KsI-cr-ph8"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -16,6 +16,7 @@
 		084B83231C5F2B9900A1D514 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B83201C5F2B9900A1D514 /* DetailViewController.swift */; };
 		084B83241C5F2B9900A1D514 /* SuperHeroesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B83211C5F2B9900A1D514 /* SuperHeroesListViewController.swift */; };
 		084B83251C5F2B9900A1D514 /* SuperHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B83221C5F2B9900A1D514 /* SuperHeroes.swift */; };
+		89E5FD451C7E469A00AF6662 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E5FD441C7E469A00AF6662 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		084B83201C5F2B9900A1D514 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		084B83211C5F2B9900A1D514 /* SuperHeroesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroesListViewController.swift; sourceTree = "<group>"; };
 		084B83221C5F2B9900A1D514 /* SuperHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroes.swift; sourceTree = "<group>"; };
+		89E5FD441C7E469A00AF6662 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		084B82E61C5F2B7B00A1D514 = {
 			isa = PBXGroup;
 			children = (
+				89E5FD441C7E469A00AF6662 /* Default-568h@2x.png */,
 				084B82F11C5F2B7B00A1D514 /* Assignment8 */,
 				084B83061C5F2B7B00A1D514 /* Assignment8Tests */,
 				084B83111C5F2B7B00A1D514 /* Assignment8UITests */,
@@ -110,8 +113,7 @@
 				084B82FB1C5F2B7B00A1D514 /* LaunchScreen.storyboard */,
 				084B82FE1C5F2B7B00A1D514 /* Info.plist */,
 			);
-			name = Assignment8;
-			path = "Wine List - Navigation+Accessory";
+			path = Assignment8;
 			sourceTree = "<group>";
 		};
 		084B83061C5F2B7B00A1D514 /* Assignment8Tests */ = {
@@ -120,8 +122,7 @@
 				084B83071C5F2B7B00A1D514 /* Assignment8Tests.swift */,
 				084B83091C5F2B7B00A1D514 /* Info.plist */,
 			);
-			name = Assignment8Tests;
-			path = "Wine List - Navigation+AccessoryTests";
+			path = Assignment8Tests;
 			sourceTree = "<group>";
 		};
 		084B83111C5F2B7B00A1D514 /* Assignment8UITests */ = {
@@ -130,8 +131,7 @@
 				084B83121C5F2B7B00A1D514 /* Assignment8UITests.swift */,
 				084B83141C5F2B7B00A1D514 /* Info.plist */,
 			);
-			name = Assignment8UITests;
-			path = "Wine List - Navigation+AccessoryUITests";
+			path = Assignment8UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				084B82FD1C5F2B7B00A1D514 /* LaunchScreen.storyboard in Resources */,
+				89E5FD451C7E469A00AF6662 /* Default-568h@2x.png in Resources */,
 				084B82FA1C5F2B7B00A1D514 /* Assets.xcassets in Resources */,
 				084B82F81C5F2B7B00A1D514 /* Main.storyboard in Resources */,
 			);
@@ -408,7 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Wine List - Navigation+Accessory/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Assignment8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Assignment8;
 				PRODUCT_NAME = Assignment8;
@@ -419,7 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Wine List - Navigation+Accessory/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Assignment8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Assignment8;
 				PRODUCT_NAME = Assignment8;
@@ -430,9 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Wine List - Navigation+AccessoryTests/Info.plist";
+				INFOPLIST_FILE = Assignment8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Wine-List---Navigation-AccessoryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Assignment8;
 				PRODUCT_NAME = Assignment8;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment8.app/Assignment8";
 			};
@@ -442,9 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Wine List - Navigation+AccessoryTests/Info.plist";
+				INFOPLIST_FILE = Assignment8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.Wine-List---Navigation-AccessoryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Assignment8;
 				PRODUCT_NAME = Assignment8;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment8.app/Assignment8";
 			};
