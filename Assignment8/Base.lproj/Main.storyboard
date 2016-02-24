@@ -176,33 +176,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAx-0x-chn">
-                                <rect key="frame" x="20" y="79" width="560" height="34"/>
+                                <rect key="frame" x="266" y="79" width="68" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXx-af-H1b">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXx-af-H1b">
                                 <rect key="frame" x="20" y="166" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gIj-Pc-Lyy">
+                                <rect key="frame" x="20" y="161" width="560" height="357"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="357" id="s2p-ZV-YPR"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LXx-af-H1b" firstAttribute="top" secondItem="eAx-0x-chn" secondAttribute="bottom" constant="53" id="2Am-3a-MCY"/>
-                            <constraint firstItem="LXx-af-H1b" firstAttribute="trailing" secondItem="wLQ-cU-axg" secondAttribute="trailingMargin" id="33P-B6-bW9"/>
-                            <constraint firstItem="eAx-0x-chn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="928-xE-S12"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LXx-af-H1b" secondAttribute="bottom" constant="413" id="JfA-9Q-Zcx"/>
-                            <constraint firstItem="eAx-0x-chn" firstAttribute="leading" secondItem="wLQ-cU-axg" secondAttribute="leadingMargin" id="T29-YD-vaF"/>
-                            <constraint firstItem="LXx-af-H1b" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="102" id="XNu-ps-1Co"/>
-                            <constraint firstItem="LXx-af-H1b" firstAttribute="leading" secondItem="wLQ-cU-axg" secondAttribute="leadingMargin" id="bXl-tA-tGu"/>
-                            <constraint firstItem="eAx-0x-chn" firstAttribute="trailing" secondItem="wLQ-cU-axg" secondAttribute="trailingMargin" id="gVv-88-haF"/>
+                            <constraint firstItem="gIj-Pc-Lyy" firstAttribute="top" secondItem="eAx-0x-chn" secondAttribute="bottom" constant="48" id="62c-Hi-FPy"/>
+                            <constraint firstItem="gIj-Pc-Lyy" firstAttribute="leading" secondItem="wLQ-cU-axg" secondAttribute="leadingMargin" id="EfG-oS-Lyy"/>
+                            <constraint firstItem="gIj-Pc-Lyy" firstAttribute="centerX" secondItem="wLQ-cU-axg" secondAttribute="centerX" id="VFH-W9-LjJ"/>
+                            <constraint firstItem="eAx-0x-chn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="Yyh-2x-CJ3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIj-Pc-Lyy" secondAttribute="bottom" constant="82" id="o36-Rp-7t9"/>
+                            <constraint firstItem="eAx-0x-chn" firstAttribute="centerX" secondItem="wLQ-cU-axg" secondAttribute="centerX" id="p1z-y1-Cqr"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="LXx-af-H1b"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Super Heroes Details" id="Pvj-I1-pR6" userLabel="Super Heroes Details"/>
                     <connections>
                         <outlet property="descriptionLabel" destination="LXx-af-H1b" id="bGu-tY-VmY"/>
+                        <outlet property="descriptionTextView" destination="gIj-Pc-Lyy" id="Gfi-rd-w71"/>
                         <outlet property="titleLabel" destination="eAx-0x-chn" id="mXz-Jz-Zb7"/>
                     </connections>
                 </viewController>
@@ -218,6 +232,6 @@
         <image name="xmen" width="500" height="496"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KsI-cr-ph8"/>
+        <segue reference="0Sn-mu-Hno"/>
     </inferredMetricsTieBreakers>
 </document>
