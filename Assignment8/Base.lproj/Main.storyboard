@@ -15,11 +15,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="alone" textLabel="gIe-Pu-NtQ" detailTextLabel="pIj-TB-1Se" imageView="h4Z-QN-i5l" style="IBUITableViewCellStyleSubtitle" id="gef-le-cEp" userLabel="alone">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="alone" textLabel="gIe-Pu-NtQ" detailTextLabel="pIj-TB-1Se" imageView="h4Z-QN-i5l" style="IBUITableViewCellStyleSubtitle" id="gef-le-cEp" userLabel="alone">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gef-le-cEp" id="X69-Dw-pgZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="533" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gIe-Pu-NtQ">
@@ -42,14 +42,14 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" trigger="accessoryAction" id="1yT-wF-kox"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Kej-f1-4e5"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="avengers" textLabel="GOC-tv-SpK" detailTextLabel="X21-yS-4Y8" imageView="qyi-TC-meU" style="IBUITableViewCellStyleSubtitle" id="T3R-Q6-Wd4" userLabel="avengers">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="avengers" textLabel="GOC-tv-SpK" detailTextLabel="X21-yS-4Y8" imageView="qyi-TC-meU" style="IBUITableViewCellStyleSubtitle" id="T3R-Q6-Wd4" userLabel="avengers">
                                 <rect key="frame" x="0.0" y="136" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T3R-Q6-Wd4" id="wEz-sY-Z1i">
-                                    <rect key="frame" x="0.0" y="0.0" width="533" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GOC-tv-SpK">
@@ -72,14 +72,14 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" trigger="accessoryAction" id="qi9-j9-Cxz"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="I9d-Zh-aZC"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="xmen" textLabel="oZn-5b-J4n" detailTextLabel="wbA-Xe-mN2" imageView="Wiv-8H-DDc" style="IBUITableViewCellStyleSubtitle" id="Bc2-h1-Bol" userLabel="xmen">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="xmen" textLabel="oZn-5b-J4n" detailTextLabel="wbA-Xe-mN2" imageView="Wiv-8H-DDc" style="IBUITableViewCellStyleSubtitle" id="Bc2-h1-Bol" userLabel="xmen">
                                 <rect key="frame" x="0.0" y="180" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bc2-h1-Bol" id="elb-h8-6Jj">
-                                    <rect key="frame" x="0.0" y="0.0" width="533" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oZn-5b-J4n">
@@ -102,14 +102,14 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" trigger="accessoryAction" id="KsI-cr-ph8"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="TKv-pf-jlb"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="fantasticFour" textLabel="59i-95-cMR" detailTextLabel="zab-nR-gzg" imageView="wIc-DA-14g" style="IBUITableViewCellStyleSubtitle" id="d1M-eo-r4Q" userLabel="fantasticFour">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="fantasticFour" textLabel="59i-95-cMR" detailTextLabel="zab-nR-gzg" imageView="wIc-DA-14g" style="IBUITableViewCellStyleSubtitle" id="d1M-eo-r4Q" userLabel="fantasticFour">
                                 <rect key="frame" x="0.0" y="224" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d1M-eo-r4Q" id="LzA-Ww-6oF">
-                                    <rect key="frame" x="0.0" y="0.0" width="533" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="59i-95-cMR">
@@ -132,7 +132,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" trigger="accessoryAction" id="0Sn-mu-Hno"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="e0j-oF-XzP"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -235,6 +235,6 @@
         <image name="xmen" width="500" height="496"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0Sn-mu-Hno"/>
+        <segue reference="e0j-oF-XzP"/>
     </inferredMetricsTieBreakers>
 </document>

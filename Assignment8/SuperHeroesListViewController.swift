@@ -28,16 +28,6 @@ class SuperHeroesListViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(tableView: UITableView,
-        didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let title = "Super Hero List"
-        let message = "You have selected \(superHeroes[indexPath.row].name)"
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
-        let okayAction = UIAlertAction(title: "Okay", style: .Default, handler: nil)
-        alertController.addAction(okayAction)
-        presentViewController(alertController, animated: true, completion: nil)
-        self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
-    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let detailViewController = segue.destinationViewController as? DetailViewController {
